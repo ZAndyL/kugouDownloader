@@ -18,7 +18,6 @@ else:
 	print('Couldn\'t find anything for', keyword)
 	sys.exit()
 
-print(data)
 count = 0
 for songInfo in data['data']['info']:
 	filename = songInfo['filename']
